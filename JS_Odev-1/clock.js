@@ -7,6 +7,7 @@ if(isim.length >= 1) {
 myName.innerHTML = isim;
 } else {
     isim = prompt("Lütfen Önce İsminizi Giriniz");
+    myName.innerHTML = isim;
 } 
 
 //Zaman ekleyelim
