@@ -1,14 +1,14 @@
 
 //önce ismi prompt ile alıp sayfada gösterelim:
 
-let isim = prompt("Lütfen İsminizi Giriniz");
-let myName = document.querySelector("#myName")
-if(isim.length >= 1) {
-myName.innerHTML = isim;
-} else {
-    isim = prompt("Lütfen Önce İsminizi Giriniz");
-    myName.innerHTML = isim;
-} 
+
+function greatingDeneme(isim){
+    isim = prompt("Lütfen Önce İsminizi Giriniz")
+    if (isim.length >= 1) {
+        myName.innerHTML = isim;
+    } else greatingDeneme()
+  }
+  greatingDeneme()
 
 //Zaman ekleyelim
 
