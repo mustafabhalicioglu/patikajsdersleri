@@ -17,7 +17,6 @@ let inputDOM = document.querySelector("#task")// Bilgiyi alacağımız inputu id
 let btnDOM = document.querySelector("#liveToastBtn")// tıkladığında bilgiyi alacağımız butonu seçiyoruz.
 let list = document.querySelector("#list")
 let li = document.querySelector("#list li")
-// let addAlert = document.querySelector("#liveToast")
 
 
 
